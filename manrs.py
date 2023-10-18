@@ -30,7 +30,7 @@ class API(object):
 		if not self.dev:
 			conn = http.client.HTTPSConnection('api.manrs.org')
 		else:
-			http.client.HTTPSConnection('api-dev.manrs.org')
+			conn = http.client.HTTPSConnection('api-dev.manrs.org')
 		conn.request('GET', endpoint, headers=headers)
 		res = conn.getresponse()
 		data = res.read()
