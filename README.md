@@ -30,8 +30,6 @@ response = api.roa_by_asn('AS16661')
 ```
 api = manrs.API('YOUR_API_KEY', dev=True)
 ```
-
 ___
 
-###### Mirrors
-[acid.vegas](https://git.acid.vegas/manrs) • [GitHub](https://github.com/acidvegas/manrs) • [GitLab](https://gitlab.com/acidvegas/manrs) • [SuperNETs](https://git.supernets.org/acidvegas/manrs)
+###### Mirrors for this repository: [acid.vegas](https://git.acid.vegas/manrs) • [SuperNETs](https://git.supernets.org/acidvegas/manrs) • [GitHub](https://github.com/acidvegas/manrs) • [GitLab](https://gitlab.com/acidvegas/manrs) • [Codeberg](https://codeberg.org/acidvegas/manrs)
